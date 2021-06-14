@@ -1,0 +1,28 @@
+.heading{
+  padding: 60px;
+  background: black;
+  font-family: 'Times New Roman';
+  color: red;
+}
+
+.heading h1 {
+  font-size: 60px;
+}
+
+.body12{
+  border: 3px #505050 solid;
+  margin: 20px;
+}
+
+.body12 h3{
+  font-family: serif;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px black solid;
+}
+.body12:not(h3){
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+}

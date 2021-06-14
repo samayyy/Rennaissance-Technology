@@ -1,0 +1,52 @@
+body {
+background-image: url(background.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #464646;
+}
+
+.heading{
+  color: white;
+  font: helvetica;
+  font-weight: 1000;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+.sub{
+  padding: 18px
+}
+
+ .btn2 {
+  width: 85px;
+  height: 40px;
+  background: rgba(36,201,225,0.8);
+  border: 1px solid #616060;
+  border-radius: 15px;
+}
+
+
+.btn2:hover {
+  transition: 1s ease-in-out;
+}
+
+select {
+    color: white;
+    padding: 2px 5px;
+    width: 400px;
+    height: 35px;
+    background-color: #505050;
+    font-size: .9rem;
+}
+.cardcenter {
+  padding: 80px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardbg {
+  background-color: #505050;
+  color: white;
+}

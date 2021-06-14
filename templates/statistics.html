@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<link href="index.html" rel="canonical" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Renaissance Technologies - Statistics</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='statistics.css') }}" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> </head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #505050;"> <a class="navbar-brand mx-2" style="border: 2px solid rgba(36,201,225,0.8);" href="{{ url_for('index') }}"><b >Renaissance<br /> Technology</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('index') }}"><b>Home</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('ourmodel') }}"><b>Our Model</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('dossier') }}"><b>Dossier</b></a> </li>
+					<li class="nav-item"> <a class="nav-link active" href="{{ url_for('statistics') }}"><b>Statistics</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('contact') }}"><b>Contact Us</b></a> </li>
+				</ul>
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item"><a class="btn btn-dark mx-2" href="{{ url_for('stockprediction') }}" role="button">Stock Prediction App</a></li>
+					<li class="nav-item"><a class="btn btn-dark me-2" href="{{ url_for('logout') }}" role="button">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			<div id="id_bg_2">
+				<div class="major_color_bckg">
+					<div class="heading1">
+						<h1><strong><span style="color: #ffffff;">Conservative Portfolio Statistics</span></strong></h1> </div>
+					<div class="subheading1">
+						<h3><span style="color: #ffffff;"> Turning Artificial Intelligence Algorithms into value added for financial investors</span></h3> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6"> <img src="{{ url_for('static', filename='statistics1.jpeg') }}" alt="Incometric" width="100%" height="100%" /> </div>
+		<div class="col-md-6">
+			<div class="cnt1">
+				<h2 style="text-align: center;">INCOMETRIC RENNAISSANCE STRATEGIC FUND</h2>
+				<h3><strong>OBJECTIVES</strong></h3>
+				<p>The investment objective of the Fund is to provide absolute rates of return and reduced volatility over the medium to long term.</p>
+				<h3><strong>STRATEGY</strong></h3>
+				<p>The Portfolio utilizes an Artificial Intelligence Investment Strategy based on its proprietary trading programme which is based on three main principles:</p>
+				<p>1 – Returns can be extracted from trends in the price movements of all kind of assets.</p>
+				<p>2 – Market prices are the key aggregator of information pertinent to making investment decisions.</p>
+				<p>3 –&nbsp;High liquidity assets provide an smother and safer trend.</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="ctn2">
+				<h2>INCOMETRIC Rennaisance Technology STRATEGIC FUND CUMULATIVE PERFORMANCE</h2>
+				<div class="btn12 text-center"><a class="button" href="#">DOWNLOAD OUR STATISTICS</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div id="id_bg_3">
+				<div class="ctn3">
+					<h2>A SMOOTHER AND SAFER TREND</h2>
+					<p>&nbsp;</p>
+					<p>The Investment Manager’s on-going research seeks to develop and implement adaptive, quantitative AI trading systems that select a mix of indicators in each market and use them to dynamically determine portfolio allocations, thereby allocating risk to markets according to a forecast of risk-adjusted profitability.</p>
+					<p>&nbsp;</p>
+					<p>The Investment Manager also believes that an investment strategy is only as successful as the confidence an Investment Manager has in its statistical basis, particularly under adverse market conditions. Unlike discretionary traders, whose behavioural biases may influence decisions, the Investment Manager practices a disciplined sistematic investment process. By quantifying the circumstances under which investment decisions are made, the Investment Manager’s systematic trading strategies can provide investors with a consistent approach to markets that are designed to remote judgmental or emotional bias from the trading process.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

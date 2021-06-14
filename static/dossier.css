@@ -1,0 +1,163 @@
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 17px;
+  font-weight: 600
+}
+
+h1 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 800
+}
+
+h2 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600
+}
+
+h3 {
+  font-family: Open Sans, sans-serif;
+  font-weight: normal
+}
+
+h4 {
+  font-family: Open Sans, sans-serif;
+  font-weight: normal
+}
+
+h5 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600
+}
+
+h6 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600
+}
+.color_bckg_1 {
+  padding:180px;
+}
+.whitebox{
+  padding: 50px;
+  background-color: white;
+
+}
+.btn12{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  color:white;
+}
+.cnt1{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+.button {
+    background-color: #0ac9c9;
+    padding: 15px;
+    border: 1px solid #479e6b;
+    color:white;
+}
+.major_color_bckg {
+  margin-left:170px;
+  margin-right: 170px;
+  margin-top: 50px;
+	background-color: rgba(36,201,225,0.5);
+}
+.heading1{
+  padding-top: 180px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+.subheading1{
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+.ctn2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.tablepad{
+  padding: 40px;
+}
+th{
+  background-color: #23c9e1;
+  color: white;
+}
+table{
+  text-align: center;
+}
+.tab{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ctn4{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ctn51{
+  padding-top: 40px;
+}
+.ctn52{
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.ctn53{
+  padding-right: 200px;
+  padding-left: 900px;
+  padding-bottom: 80px;
+  text-align: right;
+  color: #ffffff;
+}
+.ctn54{
+  padding-left: 200px;
+  padding-right: 200px;
+  color:  #ffffff;
+  padding-bottom: 100px;
+  text-align: justify;
+  font-weight: bold;
+}
+#id_bg_1 {
+  box-shadow: 0 0 0 0 #fff;
+  background-image: url(index1.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0 0;
+  background-size: cover;
+  height: auto;
+}
+#id_bg_2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#id_bg_3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(index3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#id_bg_4 {
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  background-image: url(dossier1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-color: grey;
+  opacity: 0.9;
+}

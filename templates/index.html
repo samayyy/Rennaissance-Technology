@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<link href="index.html" rel="canonical" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Renaissance Technologies</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #505050;">  <a class="navbar-brand mx-2" style="border: 2px solid rgba(36,201,225,0.8);" href="{{ url_for('index') }}"><b >Renaissance<br /> Technology</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"> <a class="nav-link active" href="{{ url_for('index') }}"><b>Home</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('ourmodel') }}"><b>Our Model</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('dossier') }}"><b>Dossier</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('statistics') }}"><b>Statistics</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('contact') }}"><b>Contact Us</b></a> </li>
+				</ul>
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item"><a class="btn btn-dark mx-2" href="{{ url_for('stockprediction') }}" role="button">Stock Prediction App</a></li>
+					<li class="nav-item"><a class="btn btn-dark me-2" href="{{ url_for('logout') }}" role="button">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			<video autoplay muted playsinline loop poster="index.html">
+				<source src="{{ url_for('static', filename='indexbg.mp4') }}" type="video/mp4"> </video>
+			<div class="major_color_bckg">
+				<p style="padding-top: 40px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename='indexlogo.jpeg') }}" alt="Renaissance Technology" width="456" height="315" /></p>
+				<h1 style="text-align: center;"><strong><span style="color: #ffffff;">Artificial Intelligence for Financial Markets</span></strong></h1>
+				<div class="btn12 text-center"><a class="button" href="{{ url_for('dossier') }}">MORE ABOUT US</a></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="cnt1">
+				<h3 style="text-align: center;"><a id="content-top"></a><span style="color: #23c9e1;">Turning Artificial Intelligence Algorithms into value added for financial investors</span></h3>
+				<h2 style="text-align: center;"><strong><span style="color: #000000;">RENNAISSANCE</span>&nbsp;<span style="color: #23c9e1;">TECHNOLOGY</span></strong></h2>
+				<p>&nbsp;</p>
+				<p style="text-align: center;">As pioneers in this field, we have made possible for an Artificial Intelligence machine to transact in the stock markets in a 100% autonomous way, learning from its mistakes and selfprogramming its software through Deep Learning Algorithms 24 hours a day. The system is able to learn millions of new strategies, analyzing the market in real time and apply the new strategies in milliseconds.</p>
+				<p style="text-align: center;">Rennaissance Technology, built to help you to generate Value.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div id="id_bg_1">
+				<div class="color_bckg_1">
+					<div class="whitebox">
+						<h3 class="text-center">WHAT WE DO</h3>
+						<div class="btn12 text-center"><a class="button" href="{{ url_for('dossier') }}">MORE ABOUT US</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="cnt2">
+				<h2 style="text-align: center;">WE ADD VALUE TO CURRENT MANAGEMENT SKILLS IN FINANCIAL MARKETS</h2>
+				<p>&nbsp;</p>
+				<p style="text-align: justify;">In Rennaissance Technology, we are focused on developing Artificial Intelligence Algorithms applied to financial markets.</p>
+				<p style="text-align: justify;">Our software is able to estimate market trends, learn from its own mistakes, and successfully solve any kind of situations using its own criteria.</p>
+				<p style="text-align: justify;">Our algorithms, neural networks, computing power, deep learning and other processes, make us a leader in the new era of finance-oriented computing.</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="ctn3">
+				<h2>OUR AI SYSTEM</h2>
+				<h4>FINANCIAL MARKETS</h4>
+				<p>Unlike automatic systems, our software is able to analyze, learn and create new strategies at its own discretion to properly anticipate and solve future situations at any Market.</p>
+				<p>&nbsp;</p>
+				<ul class="site-list" style="padding-left: 30px;">
+					<li>DEEP LEARNING</li>
+					<li>OWN CRITERIA STRATEGIES</li>
+					<li>COUNTER-STRATEGIES</li>
+					<li>REAL TIME SUPERVISION AND STRATEGY GENERATION</li>
+					<li>BACK-TESTING</li>
+					<li>FLEXIBILITY</li>
+					<li>RELIABILITY</li>
+					<li>EXPERIENCE</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6"> <img src="{{ url_for('static', filename='index2.jpg') }}" alt="OUR AI SYSTEM" width="100%" height="100%" /> </div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			<div id="id_bg_2">
+				<div class="alignbg>">
+					<div class="major_color_bckg">
+						<div class="ctn4">
+							<h2 style="text-align: center;"><span style="color: #ffffff;">WHAT MAKES US DIFFERENT</span></h2>
+							<br> <b><p style="text-align: center;"><span style="color: #ffffff;">OUR ARTIFICIAL INTELLIGENCE SYSTEMS SOLVES ANY SITUATION IN THE FINANCIAL MARKETS, LEARNING AND CREATING NEW STRATEGIES.</span></p>
+											<p style="text-align: center;"><span style="color: #ffffff;">IT HAVE ITS OWN CRITERIA THROUGH A DEEP LEARNING PROCESS TO BUILD NEW STRATEGIES IN REAL TIME.</span></p>
+											<p style="text-align: center;"><span style="color: #ffffff;">WE HAVE ONE OF THE MOST POWERFUL ARTIFICIAL INTELLIGENCE SYSTEMS IN THE WORLD.</span><span style="color: #000000;"><br /></span></p>
+											<p style="text-align: center;"><span style="color: #ffffff;">CLICK FOR MORE INFORMATION ABOUT HOW OUR SYSTEM WORKS.</span></p>
+											<p>&nbsp;</p></b> </div>
+						<div class="btn12 text-center"><a class="button" href="{{ url_for('statistics')}}">STATISTICS</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div col-md-12>
+			<div class="ctn5title">
+				<h2>WHO WE ARE AIMED AT?</h2> </div>
+			<div class="ctnallign">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="bckg3">
+							<div class="ctn5">
+								<h2><span style="color: #ffffff;">OUR SERVICES ARE AIMED AT FINANCIAL INVESTORS WITH THE FOLLOWING PROFILES</span></h2>
+								<ul style="padding-left: 30px;">
+									<li><span style="color: #ffffff;">FUND AND PENSION PLAN ASSET MANAGERS</span></li>
+									<li><span style="color: #ffffff;">FINANCIAL INSTITUTIONS</span></li>
+									<li><span style="color: #ffffff;">FINANCIAL ADVISORS</span></li>
+									<li><span style="color: #ffffff;">QUALIFIED INVESTORS</span></li>
+									<li><span style="color: #ffffff;">BROKERS</span></li>
+									<li><span style="color: #ffffff;">SECURITY AND BROKER AGENCIES</span></li>
+									<li><span style="color: #ffffff;">FAMILY OFFICES</span></li>
+									<li><span style="color: #ffffff;">NOTE: ALL INVESTORS MUST BE ADVISED BY AN EXPERIENCED PROFESSIONAL IN THE SECTOR</span></li>
+								</ul>
+								<p>&nbsp;</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6"> <img src="{{ url_for('static', filename='index4.png') }}" alt="OUR SERVICES" width="100%" height="100%" /> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

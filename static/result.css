@@ -1,0 +1,24 @@
+.page-wrapper{
+  text-align: center;
+}
+.bckg{
+  background-color: black;
+}
+.heading12{
+  padding-top: 10px;
+}
+
+.data{
+  padding: 15px;
+}
+
+.res{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

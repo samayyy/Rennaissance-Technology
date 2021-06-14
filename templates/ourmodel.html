@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<link href="index.html" rel="canonical" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Renaissance Technologies - Our Model</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='modelstyle.css') }}" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #505050;">  <a class="navbar-brand mx-2" style="border: 2px solid rgba(36,201,225,0.8);" href="{{ url_for('index') }}"><b >Renaissance<br /> Technology</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('index') }}"><b>Home</b></a> </li>
+					<li class="nav-item"> <a class="nav-link active" href="{{ url_for('ourmodel') }}"><b>Our Model</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('dossier') }}"><b>Dossier</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('statistics') }}"><b>Statistics</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('contact') }}"><b>Contact Us</b></a> </li>
+				</ul>
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item"><a class="btn btn-dark mx-2" href="{{ url_for('stockprediction') }}" role="button">Stock Prediction App</a></li>
+					<li class="nav-item"><a class="btn btn-dark me-2" href="{{ url_for('logout') }}" role="button">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			<div id="id_bg_2">
+				<div class="major_color_bckg">
+					<div class="heading1">
+						<h1><strong><span style="color: #ffffff;">Artificial Intelligence for Financial Markets</span></strong></h1> </div>
+					<div class="subheading1">
+						<h3><span style="color: #ffffff;">Turning Artificial Intelligence Algorithms into value added for financial investors</span></h3> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ctnallign">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="bckg1">
+					<div class="ctn1">
+						<p>&nbsp;</p>
+						<h2><span style="color: #ffffff;">OUR ARTIFICIAL<br />INTELLIGENCE SYSTEM</span></h2>
+						<p>&nbsp;</p>
+						<div>
+							<blockquote>
+								<p><span style="color: #23c9e1;">Financial Markets</span>
+									<br /><span style="color: #ffffff;">Our computing system makes in one second the same number of operations as if the entire human population would make by writing numbers 24 hours a day for 500 years!</span></p>
+							</blockquote>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6"> <img src="{{ url_for('static', filename='ourmodel1.jpeg') }}" alt="Our AI System" width="100%" height="100%" /> </div>
+		</div>
+	</div>
+	<div class="section2">
+		<div class="ctnallign2">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="flex flip-container" ontouchstart="this.classList.toggle(" hover ");">
+						<div class="flipper">
+							<div style="background-color:#fff;padding:0 0 12px;" class="front ">
+								<div class="sppb-person-image"><img class="sppb-img-responsive" src="{{ url_for('static', filename='what-it-looks-for.jpg') }}" alt="WHAT IT LOOKS FOR" style="height:100%; width:100%" ;></div>
+								<div class="sppb-person-information"><b><div class="cardheading">WHAT IT LOOKS FOR</div></b></div>
+							</div>
+							<div style="background-color:#fff;padding:0 0 12px;" class="back ">
+								<div class="sppb-addon sppb-addon-person">
+									<div class="sppb-person-information backheading"><b>WHAT IT LOOKS FOR</b></div>
+								</div>
+								<div class="sppb-person-introtext cardtext">
+									<p style="text-align: center;">Rennaisance Technology neural network looks for patterns that allow us to forecast financial market trends on a real time basis. It is in fact a trending program.</p>
+								</div>
+								<hr /> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="flex flip-container" ontouchstart="this.classList.toggle(" hover ");">
+						<div class="flipper">
+							<div style="background-color:#fff;padding:0 0 12px;" class="front ">
+								<div class="sppb-person-image"><img class="sppb-img-responsive" src="{{ url_for('static', filename='troubleshooting-resolution.jpg') }}" alt="TROUBLESHOOTING RESOLUTION" style="height:100%; width:100%" ;></div>
+								<div class="sppb-person-information"><b><div class="cardheading">TROUBLESHOOTING RESOLUTION</div></b></div>
+							</div>
+							<div style="background-color:#fff;padding:0 0 12px;" class="back ">
+								<div class="sppb-addon sppb-addon-person">
+									<div class="sppb-person-information backheading"><b>TROUBLESHOOTING RESOLUTION</b></div>
+								</div>
+								<div class="sppb-person-introtext cardtext">
+									<p style="text-align: center;">If the system identifies a trend which is not followed by the market, our software applies a counter-strategy to solve the situation on a real-time basis, adapting to the new scenario. The set of algorithms used by our system allows to analyze more than 1.5×10^20 data per day.</p>
+								</div>
+								<hr /> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="flex flip-container" ontouchstart="this.classList.toggle(" hover ");">
+						<div class="flipper">
+							<div style="background-color:#fff;padding:0 0 12px;" class="front ">
+								<div class="sppb-person-image"><img class="sppb-img-responsive" src="{{ url_for('static', filename='how-it-makes-deciscions.jpg') }}" alt="HOW IT MAKES DECISIONS" style="height:100%; width:100%" ;></div>
+								<div class="sppb-person-information"><b><div class="cardheading">HOW IT MAKES DECISIONS</div></b></div>
+							</div>
+							<div style="background-color:#fff;padding:0 0 12px;" class="back ">
+								<div class="sppb-addon sppb-addon-person">
+									<div class="sppb-person-information backheading"><b>HOW IT MAKES DECISIONS</b></div>
+								</div>
+								<div class="sppb-person-introtext cardtext">
+									<p style="text-align: center;">Taking into account all it learns along the process and using advanced theories such as fractals, chaos and waves. The system makes movement estimations allowing us to infer trends.</p>
+								</div>
+								<hr /> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<p>&nbsp;</p>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="flex flip-container" ontouchstart="this.classList.toggle(" hover ");">
+						<div class="flipper">
+							<div style="background-color:#fff;padding:0 0 12px;" class="front ">
+								<div class="sppb-person-image"><img class="sppb-img-responsive" src="{{ url_for('static', filename='where-it-operates.jpg') }}" alt="WHERE IT OPERATES" style="height:100%; width:100%" ;></div>
+								<div class="sppb-person-information"><b><div class="cardheading">WHERE IT OPERATES</div></b></div>
+							</div>
+							<div style="background-color:#fff;padding:0 0 12px;" class="back ">
+								<div class="sppb-addon sppb-addon-person">
+									<div class="sppb-person-information backheading"><b>WHERE IT OPERATES</b></div>
+								</div>
+								<div class="sppb-person-introtext cardtext">
+									<p style="text-align: center;">The system can operate in any financial asset where its liquidity is high enough to make the system suitable for a pattern research process.</p>
+								</div>
+								<hr /> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="flex flip-container" ontouchstart="this.classList.toggle(" hover ");">
+						<div class="flipper">
+							<div style="background-color:#fff;padding:0 0 12px;" class="front ">
+								<div class="sppb-person-image"><img class="sppb-img-responsive" src="{{ url_for('static', filename='how-it-learns.jpg') }}" alt="HOW IT LEARNS" style="height:100%; width:100%" ;></div>
+								<div class="sppb-person-information"><b><div class="cardheading">HOW IT LEARNS</div></b></div>
+							</div>
+							<div style="background-color:#fff;padding:0 0 12px;" class="back ">
+								<div class="sppb-addon sppb-addon-person">
+									<div class="sppb-person-information backheading"><b>HOW IT LEARNS</b></div>
+								</div>
+								<div class="sppb-person-introtext cardtext">
+									<p style="text-align: center;">The system undertakes a process of analysis and new patterns through a Deep Learning process during 24 hours a day, 7 days a week. During this non-stop analysis, research and optimization process, all new movements and patterns are stored to be used in the up coming scenarios, then helping solve any kind of future market situations.</p>
+								</div>
+								<hr /> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="flex flip-container" ontouchstart="this.classList.toggle(" hover ");">
+						<div class="flipper">
+							<div style="background-color:#fff;padding:0 0 12px;" class="front ">
+								<div class="sppb-person-image"><img class="sppb-img-responsive" src="{{ url_for('static', filename='computing-power.jpg') }}" alt="HOW IT MAKES DECISIONS" style="height:100%; width:100%" ;></div>
+								<div class="sppb-person-information"><b><div class="cardheading">HOW IT MAKES DECISIONS</div></b></div>
+							</div>
+							<div style="background-color:#fff;padding:0 0 12px;" class="back ">
+								<div class="sppb-addon sppb-addon-person">
+									<div class="sppb-person-information backheading"><b>HOW IT MAKES DECISIONS</b></div>
+								</div>
+								<div class="sppb-person-introtext cardtext">
+									<p style="text-align: center;">To maintain and implement the necessary processes, the Rennaisance Technology System has a computing powerworking full-time, 24/7</p>
+								</div>
+								<hr /> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

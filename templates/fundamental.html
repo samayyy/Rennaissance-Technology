@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<link href="index.html" rel="canonical" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Renaissance Technologies - Stock Prediction App</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fundamental.css') }}" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> </head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #505050;">  <a class="navbar-brand mx-2" style="border: 2px solid rgba(36,201,225,0.8);" href="{{ url_for('index') }}"><b >Renaissance<br /> Technology</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('index') }}"><b>Home</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('ourmodel') }}"><b>Our Model</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('dossier') }}"><b>Dossier</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('statistics') }}"><b>Statistics</b></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="{{ url_for('contact') }}"><b>Contact Us</b></a> </li>
+				</ul>
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item"><a class="btn btn-dark mx-2" href="{{ url_for('stockprediction') }}" role="button">Stock Prediction App</a></li>
+					<li class="nav-item"><a class="btn btn-dark me-2" href="{{ url_for('logout') }}" role="button">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main text-center">
+		<div class="heading">
+			<h1>Fundamental Analysis</h1> </div>
+		<div class="body12">
+			<h3>What is fundamental analysis of stocks?</h3>
+			<p>Fundamental analysis is the most basic way of determining whether a stock is fairly priced or not. This kind of analysis requires the investor to go through the company’s financial statements and also see if the economic factors favour the company’s products and goals. Taking a look into the company’s management is also very crucial, as a good management gives back to the shareholders. The end goal of this analysis is to see if the company is over or undervalued. If the company is overvalued its price to earning ratio or PE ratio is usually high, whereas for an undervalued company the PE ratio is generally low.</p>
+			<h3>Parameters to look out for while doing a fundamental analysis of a company’s stock.</h3>
+			<p>When doing a fundamental analysis of a stock there are certain parameters that help us. These parameters help us in determining if the stock is undervalued or overvalued. Some of the parameters are price to earnings ratio (P.E), earnings per share (EPS), Beta value, Book value, profit loss statement and cash flow statements. </p>
+			<br>
+			<p><b>EPS</b>: Earnings per share is calculated as a company's profit divided by the outstanding shares of its common stock. The resulting number serves as an indicator of a company's profitability. The higher a company's EPS, the more profitable it is considered to be. </p>
+			<br>
+			<p><b>PE ratio</b>: The price-to-earnings ratio (P/E ratio) is the ratio for valuing a company that measures its current share price relative to its per-share earnings. The price-to-earnings ratio is also sometimes known as the price multiple or the earnings multiple. A higher PE suggests a company is overvalued, while a lower PE suggests otherwise.</p>
+			<br>
+			<p><b>Beta</b>: Beta is a measure of a stock's volatility in relation to the overall market. If a stock moves less than the market, the stock's beta is less than 1.0, if it moves more than the market the beta is greater than 1 and if it moves in accordance with the market the beta is 1. High-beta stocks are supposed to be riskier but provide higher return potential; low-beta stocks pose less risk but also lower returns.</p>
+			<br>
+			<p><b>Book Value</b>: The book value of a stock is theoretically the amount of money that would be paid to shareholders if the company was liquidated and paid off all of its liabilities. As a result, the book value equals the difference between a company's total assets and total liabilities.</p>
+			<h3>How does fundamental analysis differ from technical analysis?</h3>
+			<p>Technical analysis does not dig under the hood of a company any examine financial statements or do ratio analyses. Instead, technical traders look to relatively short-term chart patterns to identify price signals, trends, and reversals. Technical traders tend to enter into short-term positions and do not necessarily look to longer-term valuation. The motivation behind technical analysis is largely driven by market psychology.</p>
+			<h3>Key fundamentals to consider while taking a look at the company whose stock you want to purchase.</h3>
+			<ul>
+				<li><b>Their business model</b>: This involves taking a look at what exactly the company does. What products/ services it offers and what their revenue system is.</li>
+				<li><b>Whether they have a competitive advantage</b>: A company's long-term success is driven largely by its ability to maintain a competitive advantage and keep it. With a competitive advantage the company can keep growing and keep make profits. When a company can achieve a competitive advantage, its shareholders can be well rewarded for decades.</li>
+				<li><b>Management of the company</b>: Some believe that management is the most important criterion for investing in a company. It makes sense: Even the best business model is doomed if the leaders of the company fail to properly execute the plan. While it's hard for retail investors to meet and truly evaluate managers, you can look at the corporate website and check the resumes of the top brass and the board members. How well did they perform in prior jobs? Have they been unloading a lot of their stock shares lately?</li>
+				<li><b>Corporate governance</b>: Corporate governance describes the policies in place within an organization denoting the relationships and responsibilities between management, directors, and shareholders. You want to do business with a company that is run ethically, fairly, transparently, and efficiently. Particularly note whether management respects shareholder rights and shareholder interests. Make sure their communications to shareholders are transparent, clear, and understandable. If you don't get it, it's probably because they don't want you to.</li>
+				<li><b>Looking at the financials of the company</b>: First take a look at their p/l statement. If a company is making steady increase in profits quarter after quarter then that’s a good sign. If the company is loss making but its products/services are valuable then its worth taking a look at. Next we see the cash flow statements. A positive cash flow is a good sign. The cash flow statement is important because it's very difficult for a business to manipulate its cash situation. There is plenty that aggressive accountants can do to manipulate earnings, but it's tough to fake cash in the bank. For this reason, some investors use the cash flow statement as a more conservative measure of a company's performance.</li>
+			</ul>
+		</div>
+</body>
+
+</html>

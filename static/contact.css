@@ -1,0 +1,125 @@
+html {
+  background: url(contact1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 17px;
+  font-weight: 600
+}
+
+h1 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 800
+}
+
+h2 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600
+}
+
+h3 {
+  font-family: Open Sans, sans-serif;
+  font-weight: normal
+}
+
+h4 {
+  font-family: Open Sans, sans-serif;
+  font-weight: normal
+}
+
+h5 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600
+}
+
+h6 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600
+}
+
+.heading{
+  padding-top: 15px;
+  color:white;
+}
+form{
+  border: 3px solid #23c9e1;
+  padding: 15px;
+}
+form label {
+  font-size: 1.2em;
+  display: block;
+  padding-top: 10px;
+  color:white;
+}
+
+form input#name,
+form input#email,
+form input#subject {
+  width: 400px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  padding-top: 0px;
+  font-size: 1.1em;
+  background-color: #E8E8E8;
+}
+
+form textarea#message {
+  width: 500px;
+  height: 100px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-top:0px;
+  font-size: 1.1em;
+  background-color: #E8E8E8;
+}
+
+form input#submit {
+  display: block;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border:1px solid #d8d8d8;
+  padding: 10px;
+  font-weight:bold;
+  text-align: center;
+  color: #000000;
+  background-color: rgba(36,201,225,0.8);
+}
+
+form input#submit:hover{
+  cursor: pointer;
+  border:1px solid #c1c1c1;
+  background-color: #dbdbdb;
+}
+
+.flash {
+  background-color: #FBB0B0;
+  padding: 10px;
+  width: 400px;
+}
+
+.msg{
+  color:white;
+}
+#bg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFF;
+  background-image: url(contact1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 0;
+
+}
